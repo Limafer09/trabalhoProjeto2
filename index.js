@@ -12,7 +12,7 @@ const app = express();
 //processamento do formulario
 app.use(express.urlencoded({extended: true}));
 
-app.get("/cadastroPessoas", (requisicao, resposta) =>{
+app.get("/", (requisicao, resposta) =>{
     resposta.send(`
             <html lang="pt-br">
                 <head>
