@@ -284,7 +284,7 @@ app.get("/listadeUsuarios", (requisicao, resposta) => {
                             </tr>
                         </thead>
                         <tbody> `;
-                        for(let i = 0; i < listadeUsuarios.lenght; i++){
+                        for(let i = 0; i < listadeUsuarios.length; i++){
                             conteudo = conteudo + `
                                 <tr>
                                     <td>${listadeUsuarios[i].nome}</td>
